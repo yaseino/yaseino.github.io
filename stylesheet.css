@@ -3,7 +3,7 @@ body{
 }
 
 main{
-  background-image: url(./haikei.JPG);
+  background-image: url(./htmlphoto/haikei.JPG);
   background-size: cover;
   width: auto;
   height: auto;
@@ -22,23 +22,31 @@ background-color: rgb(127, 255, 212);
 text-align: center;
 }
 
-.circle{
-  text-align: center;
+.allcircle{
+  padding-left: 10%;
+}
+
+a{
+	display:block;
+}
+
+a:hover{ 
+	opacity:0.5;
+	transition:0.3s;
+}
+
+
+.btn{ 
+  width: 30%;
+  height: auto;
 }
 
 .red{
-  width: 30%;
-  height: auto;
+  float: left;
 }
 
 .green{
-  width: 30%;
-  height: auto;
-}
-
-.blue{
-  width: 30%;
-  height: auto;
+  float: left;
 }
 
 .form{
