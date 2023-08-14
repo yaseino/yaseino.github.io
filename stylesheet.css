@@ -3,7 +3,7 @@ body{
 }
 
 main{
-  background-image: url(haikei.JPG);
+  background-image: url(./haikei.JPG);
   background-size: cover;
   width: auto;
   height: auto;
